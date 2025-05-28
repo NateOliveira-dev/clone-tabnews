@@ -1,5 +1,5 @@
 const status = (request, response) => {
-  response.status(200).json({ chave: "São acima da média" });
+  response.status(200).json({ chave: "primeiro dado fornecido via api" });
 };
 
 export default status;
